@@ -1,7 +1,6 @@
 ## Google Remote Procedure Call
-___
 
-<center><img src="GRPC.png" width="551" height=auto></center>
+<img src="GRPC.png" width="551" height=auto>
 
 > 1. construct calculator.py, calculator.proto
 
