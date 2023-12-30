@@ -4,16 +4,12 @@
 
 > 1. construct calculator.py, calculator.proto
 
-> 2. Installing grpc<br/>
-`pip install grpcio`<br/>
-`pip install grpcio-tools`
+> 2. Installing grpc<br/> > `pip install grpcio`<br/> > `pip install grpcio-tools` > `pip install grpcio-tools mypy-protobuf`
 
-> 3. Generating calculator_pb2.py and calculator_pb2_grpc.py<br/>
-`python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. calculator.proto`
+> 3. Generating calculator_pb2.py, calculator_pb2.pyi and calculator_pb2_grpc.py<br/> > `python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. --mypy_out=. calculator.proto`
 
 > 4. Create server.py and client.py files
 
->5. Run server.py and test with client.py or `postman`
+> 5.  Run server.py and test with client.py or `postman`
 
-+ #### [reference](https://medium.com/engineering-semantics3/a-simplified-guide-to-grpc-in-python-6c4e25f0c506)
-
+- #### [reference](https://medium.com/engineering-semantics3/a-simplified-guide-to-grpc-in-python-6c4e25f0c506)
